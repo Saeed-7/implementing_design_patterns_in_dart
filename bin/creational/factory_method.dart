@@ -43,7 +43,7 @@ class BananaMilkCreator extends MilkCreator {
   Milk createMilk() => BananaMilk();
 }
 
-// Client code
+// Program execution
 void main() {
   MilkCreator chocolateCreator = ChocolateMilkCreator();
   chocolateCreator.createCustomMilk("Create Chocolate Milk.");

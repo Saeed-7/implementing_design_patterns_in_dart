@@ -48,7 +48,7 @@ class PaymentContext {
   }
 }
 
-// Example Usage
+// Program execution
 void main() {
   PaymentContext context = PaymentContext();
 

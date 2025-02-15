@@ -4,13 +4,14 @@ library;
 ///
 /// @email: en.saeedfekri@gmail.com
 
-//Models
+// Product Model
 class Product {
   String productName;
 
   Product(this.productName);
 }
 
+// User Model
 class User {
   String fullName, email;
 
@@ -92,7 +93,7 @@ class OutOfStockListener implements EventListener {
   }
 }
 
-// Example Usage
+// Program execution
 main() {
   User client = User("FullName", "client@example.com");
 

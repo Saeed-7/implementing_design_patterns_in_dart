@@ -6,6 +6,7 @@ library;
 
 abstract class Coffee {
   String getDescription();
+
   double cost();
 }
 
@@ -79,6 +80,7 @@ class HazelnutDecorator extends CoffeeDecorator {
   double cost() => super.cost() + 1.8;
 }
 
+// Program execution
 void main() {
   Coffee myCoffee = SimpleCoffee();
   print(myCoffee.getDescription()); // Output: Simple Coffee
